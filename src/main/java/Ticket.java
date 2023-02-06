@@ -29,6 +29,10 @@ public class Ticket implements Comparable<Ticket> {
         return id;
     }
 
+    public int getTravelTime() {
+        return travelTime;
+    }
+
     @Override
     public int compareTo(Ticket o) {
         if (price < o.getPrice()) {
